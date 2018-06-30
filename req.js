@@ -7,7 +7,7 @@ var commands = yargs
          a:{
             demand:true,
             alias:'address',
-            describe:'Address Need',
+            describe:'Address Need , You can also pass Zipcode',
             string:true
          }    
      })
